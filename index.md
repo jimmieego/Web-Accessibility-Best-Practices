@@ -226,7 +226,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="/images/background/01.svg" -->
 
 <video controls>
-    <source src="images/a11y map demo.mp4"  type="video/mp4">
+    <source src="images/a11y-map-demo.mp4"  type="video/mp4">
 </video>
 
 <p class="source"><a href="https://github.com/Esri/a11y-map">https://github.com/Esri/a11y-map</a></p>
