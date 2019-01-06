@@ -238,4 +238,4 @@ Web Content Accessibility Guidelines
 
 ### Questions?
 
-<p class="centerp">Slides: </p>
+<p class="centerp source">Slides: https://jimmieego.github.io/Web-Accessibility-Best-Practices/</p>
