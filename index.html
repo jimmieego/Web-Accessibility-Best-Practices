@@ -15,8 +15,23 @@
 				font-size: 1.8em;
 			}
 
-			.reveal h1, .reveal h2, .reveal p {
+			.reveal h1, .reveal p {
+				margin-left: 1rem;
 				text-align: left;
+			}
+
+			.reveal h2 {
+				margin-left: 10%;
+				text-align: left;
+			}
+
+			.reveal h2.centertitle {
+				margin-left: 0;
+				text-align: center;
+			}
+
+			.reveal h2.twocoltitle {
+				margin-left: 1%;
 			}
 
 			body {
@@ -27,20 +42,67 @@
 				margin-top: 1.5em;
 				line-height: 1.5;
 				font-size: 0.9em;
-				/* text-align: center; */
 			}
 
-			#keyboardGuide {
+			#slidesInfo {
 				font-size: 0.45em; 
 				margin-top: 3em; 
-				margin-left: auto; 
+				margin-left: 1rem; 
 				margin-right: auto;
-				/* text-align: center; */
+			}
+
+			.reveal p.centerp {
+				margin-left: 0;
+				text-align: center;
+			}
+
+			#wcagoverview {
+				height: 80%;
+				width: 80%;
 			}
 
 			.reveal section ul {
-				width: 100%;
+				width: 80%;
+				line-height: 1.4;
 			}
+
+			.reveal section .twocol {
+				display: flex;
+				align-items: flex-start;
+			}
+
+			.reveal .twocol .leftcol {
+				flex: 1 0 40%;
+				font-size: 0.8em;
+			}
+
+			.reveal .twocol .rightcol {
+				margin-left: 2.3rem;
+				max-width: 400px;
+				flex: 0 1 30%;
+			}
+
+			.reveal .source {
+				margin-left: 0;
+				margin-top: 2.5em;
+				text-align: center;
+				font-size: 0.4em;
+			}
+
+			#a11ymap {
+				width: 60%;
+				height: 60%;
+			}
+
+			#video {
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+
 		</style>
 
 		<!-- Theme used for syntax highlighting of code -->
