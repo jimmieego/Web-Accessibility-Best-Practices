@@ -1,4 +1,4 @@
-<!-- .slide: data-background="/images/background/00.svg" -->
+<!-- .slide: data-background="images/background/00.svg" -->
 
 # Web Accessibility Best Practices
 
@@ -12,7 +12,7 @@
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## What is accessibility?
 
@@ -24,7 +24,7 @@
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## Why is accessibility important?
 
@@ -35,7 +35,7 @@
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <h2 class="twocoltitle">How is Esri doing?</h2>
 
@@ -52,7 +52,7 @@
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <h2 class="twocoltitle">WCAG</h2>
 
@@ -61,7 +61,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
     <img src="images/wcag.png" alt="Screenshots of WCAG 2.0 and 2.1 official docs">
@@ -69,7 +69,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <h2 class="centertitle">Overview of WCAG 2.0</h2>
 
@@ -79,7 +79,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## What we will cover today
 
@@ -92,7 +92,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## Focus and tab order
 
@@ -106,7 +106,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
     <a href="#">Demo: Focus and tab order</a>
@@ -115,7 +115,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## Test focus and tab order
 
@@ -128,7 +128,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## Color and color contrast
 
@@ -140,7 +140,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
     <a href="#">Demo: Color and color contrast</a>
@@ -149,7 +149,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## Test color and color contrast
 
@@ -160,7 +160,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <h2 class="twocoltitle">Text alternatives</h2>
 
@@ -174,7 +174,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
     <a href="#">Demo: Text alternative</a>
@@ -183,7 +183,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 ## Write effective alternate text
 
@@ -195,7 +195,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <h2 class="centertitle">Alt text example</h2>
 
@@ -210,7 +210,7 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <h2 class="centertitle">Map for non-sighted users</h2>
 
@@ -223,18 +223,18 @@ Web Content Accessibility Guidelines
 
 
 ---
-<!-- .slide: data-background="/images/background/01.svg" -->
+<!-- .slide: data-background="images/background/01.svg" -->
 
 <video controls>
     <source src="images/a11y-map-demo.mp4"  type="video/mp4">
 </video>
 
-<p class="source"><a href="https://github.com/jimmieego/Web-Accessibility-Best-Practices/blob/master/images/a11y-map-demo.mp4">Video link</a></p>
+<p class="source"><a href="https://github.com/jimmieego/Web-Accessibility-Best-Practices/blob/masterimages/a11y-map-demo.mp4">Video link</a></p>
 
 
 
 ---
-<!-- .slide: data-background="/images/background/02.svg" -->
+<!-- .slide: data-background="images/background/02.svg" -->
 
 ### Questions?
 
