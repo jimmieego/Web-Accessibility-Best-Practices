@@ -229,7 +229,8 @@ Web Content Accessibility Guidelines
     <source src="images/a11y-map-demo.mp4"  type="video/mp4">
 </video>
 
-<p class="source"><a href="https://github.com/Esri/a11y-map">https://github.com/Esri/a11y-map</a></p>
+<p class="source"><a href="https://github.com/jimmieego/Web-Accessibility-Best-Practices/blob/master/images/a11y-map-demo.mp4">Video link</a></p>
+
 
 
 ---
