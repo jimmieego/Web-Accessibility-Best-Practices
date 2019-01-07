@@ -109,7 +109,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="demos/focus_and_tab-order/index.html">Demo: Focus and tab order</a>
+    <a href="demos/focus_and_tab_order/index.html">Demo: Focus and tab order</a>
 </p>
 
 
