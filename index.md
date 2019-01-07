@@ -218,7 +218,7 @@ Web Content Accessibility Guidelines
     <img id="a11ymap" src="images/a11y-map.png" alt="Screenshot of the accessible map prototype by Esri">
 </p>
 
-<p class="source"><a href="https://github.com/Esri/a11y-map">https://github.com/Esri/a11y-map</a></p>
+<p class="source">GitHub repo: <a href="https://github.com/Esri/a11y-map">https://github.com/Esri/a11y-map</a></p>
 
 
 
@@ -230,6 +230,81 @@ Web Content Accessibility Guidelines
 </video>
 
 <p class="source"><a href="https://github.com/jimmieego/Web-Accessibility-Best-Practices/blob/masterimages/a11y-map-demo.mp4">Video link</a></p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+## DIY accessibility test
+
+<ol>
+    <li>Automated test</li>
+    <li>Keyboard test</li>
+    <li>Screen reader test</li>
+    <li>Color test</li>
+</ol>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h2>Automated test with <a href="https://www.deque.com/products/axe/">aXe</a></h2>
+
+<p class="centerp"> 
+    <img id="axe" src="images/axe.png" alt="Screenshots of aXe extension in Chrome"/>
+</p>
+
+<ul>
+    <li>Tests rendered page in browser</li>
+    <li>Less false positives</li>
+    <li>Accessible</li>
+</ul>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h2 class="centertitle">Keyboard test</h2>
+
+<p class="centerp"> 
+    <img id="axe" src="images/keyboard.png" alt="List of keyboard actions"/>
+</p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h2 class="centertitle">Screen reader</h2>
+
+| OS      | Screen reader | Browser |
+|---------|---------------|---------|
+| MacOS   | [VoiceOver](https://www.apple.com/accessibility/mac/vision/)     | Safari  |
+| Windows | [NVDA](https://www.nvaccess.org/)          | Firefox |
+| Windows | [JAWS](http://www.freedomscientific.com/Products/Blindness/JAWS)          | IE/Edge |
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+## Screen reader basics
+
+- [VoiceOver](https://youtu.be/5R-6WvAihms)
+- [NVDA](https://youtu.be/Jao3s_CwdRU)
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+## Color test
+
+- Automated color contrast test results may need manual verification
+- Look for information differentiated only by color
 
 
 
