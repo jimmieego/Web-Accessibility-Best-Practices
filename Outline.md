@@ -32,7 +32,6 @@ Participants of this webinar will be able to:
     - Demo of adding alternate text for non-text content
     - How to test and write effective alternate text
 - Web App Example 4: Map for non-sighted users
-    - WCAG 1.3.3 (sensory characteristics)
     - Demo of helping non-sighted users access information on a web map
     - Help test the prototype and give us feedback
 - A DIY accessibility test process
