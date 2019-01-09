@@ -109,7 +109,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="#">Demo: Focus and tab order</a>
+    <a href="demos/focus_and_tab_order/index.html">Demo: Focus and tab order</a>
 </p>
 
 
@@ -143,7 +143,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="#">Demo: Color and color contrast</a>
+    <a href="https://developers.arcgis.com/javascript/latest/sample-code/popuptemplate-function/live/index.html">Demo: Color and color contrast</a>
 </p>
 
 
@@ -177,7 +177,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="#">Demo: Text alternative</a>
+    <a href="https://developers.arcgis.com/javascript/latest/sample-code/widgets-basemapgallery/live/index.html">Demo: Text alternative</a>
 </p>
 
 
@@ -252,7 +252,7 @@ Web Content Accessibility Guidelines
 
 <h2>Automated test with <a href="https://www.deque.com/products/axe/">aXe</a></h2>
 
-<p class="centerp"> 
+<p class="centerp">
     <img id="axe" src="images/axe.png" alt="Screenshots of aXe extension in Chrome"/>
 </p>
 
@@ -269,7 +269,7 @@ Web Content Accessibility Guidelines
 
 <h2 class="centertitle">Keyboard test</h2>
 
-<p class="centerp"> 
+<p class="centerp">
     <img id="axe" src="images/keyboard.png" alt="List of keyboard actions"/>
 </p>
 
