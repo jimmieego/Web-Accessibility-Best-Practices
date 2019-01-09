@@ -301,7 +301,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="http://servicesbeta.esri.com/demos/a11y/index.html">Demo: Automated test using aXe</a>
+    <a href="demos/map-demo/index.html">Demo: Automated test using aXe</a>
 </p>
 
 
