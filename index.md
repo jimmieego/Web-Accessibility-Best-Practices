@@ -94,6 +94,17 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
+## Our focus
+
+- How to get started in accessibility
+- Simple and effective actions
+- Finding issues rather than fixing the code
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
 ## Focus and tab order
 
 <ul>
@@ -151,6 +162,32 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
+<h2 class="centertitle">White text on colored background</h2>
+
+<p class="centerp">
+    <img src="images/color-example-1.png" alt="Example of white text on light colored background">
+</p>
+<hr>
+<p class="centerp">
+    <img class="fragment" src="images/color-example-2.png" alt="Example of white text on dark colored background">
+</p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h2 class="centertitle">Flipping the contrast</h2>
+
+<p class="centerp">
+    <img src="images/color-example-3.png" alt="Example of black text on light colored background">
+</p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
 ## Test color and color contrast
 
 - Look for content differentiated by color only
@@ -199,13 +236,7 @@ Web Content Accessibility Guidelines
 
 <h2 class="centertitle">Alt text example</h2>
 
-<p class="centerp">
-    <img src="images/alt-good-bad.jpg" alt="Example of good and bad alternative text">
-</p>
-
-<p class="source">
-    Source: https://www2.le.ac.uk/webcentre/plone/build/basics/add-images/alt-text
-</p>
+<!-- Removed the generic alt text example -->
 
 
 
@@ -267,6 +298,15 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
+<p class="centerp">
+    <a href="http://servicesbeta.esri.com/demos/a11y/index.html">Demo: Automated test using aXe</a>
+</p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
 <h2 class="centertitle">Keyboard test</h2>
 
 <p class="centerp">
@@ -293,8 +333,8 @@ Web Content Accessibility Guidelines
 
 ## Screen reader basics
 
-- [VoiceOver](https://youtu.be/5R-6WvAihms)
-- [NVDA](https://youtu.be/Jao3s_CwdRU)
+- [A11ycasts: VoiceOver](https://youtu.be/5R-6WvAihms)
+- [A11ycasts: NVDA](https://youtu.be/Jao3s_CwdRU)
 
 
 
