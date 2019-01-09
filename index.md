@@ -113,7 +113,6 @@ Web Content Accessibility Guidelines
 </p>
 
 
-
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
@@ -143,7 +142,7 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="https://developers.arcgis.com/javascript/latest/sample-code/popuptemplate-function/live/index.html">Demo: Color and color contrast</a>
+    <a href="demos/color-contrast/index.html">Demo: Color and color contrast</a>
 </p>
 
 
@@ -177,7 +176,10 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
-    <a href="https://developers.arcgis.com/javascript/latest/sample-code/widgets-basemapgallery/live/index.html">Demo: Text alternative</a>
+    <ul>
+    <li><a href="https://developers.arcgis.com/javascript/latest/sample-code/widgets-basemapgallery/live/index.html">Demo: Text alternative - empty alt</a></li>
+     <li><a href="https://story.maps.arcgis.com/apps/MapJournal/index.html?appid=2b1c793f464b4cd2944a0b9700c0dc48">Demo: Text alternative - descriptive</a></li>
+     </ul>
 </p>
 
 
