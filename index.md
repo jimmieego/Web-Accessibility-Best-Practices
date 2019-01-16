@@ -354,6 +354,17 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/02.svg" -->
 
+## Additional resources
+
+- [MDN: Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+- [Google Developers Web Fundamentals: Accessibility](https://developers.google.com/web/fundamentals/accessibility/)
+- [The A11Y Project](https://a11yproject.com/)
+
+
+
+---
+<!-- .slide: data-background="images/background/02.svg" -->
+
 ### Questions?
 
-<p class="centerp source">Slides: https://jimmieego.github.io/Web-Accessibility-Best-Practices/</p>
+<p class="centerp source">Slides: https://arcg.is/1a910T</p>
