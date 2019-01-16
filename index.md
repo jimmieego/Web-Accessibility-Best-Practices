@@ -246,15 +246,6 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
-<h2 class="centertitle">Alt text example</h2>
-
-<!-- Removed the generic alt text example -->
-
-
-
----
-<!-- .slide: data-background="images/background/01.svg" -->
-
 <h2 class="centertitle">Map for non-sighted users</h2>
 
 <p class="centerp">
