@@ -98,7 +98,7 @@ Web Content Accessibility Guidelines
 
 - How to get started in accessibility
 - Simple and effective actions
-- Finding issues rather than fixing the code
+- Finding issues before working with the code
 
 
 
