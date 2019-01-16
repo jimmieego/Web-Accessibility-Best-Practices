@@ -129,6 +129,15 @@ Web Content Accessibility Guidelines
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <p class="centerp">
+    <a href="images/modal_example.gif">Demo: Focus trap in dialog</a>
+</p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<p class="centerp">
     <a href="https://arcgis103.esri.ca/WCAG-Configurable-Template-Test/?appid=e951691e3893444ea64e7c29d086e30c">Example: Accessible App of Electric Charging Stations</a>
 </p>
 
