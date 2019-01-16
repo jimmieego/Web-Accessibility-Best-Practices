@@ -61,7 +61,7 @@ A keyboard trap occurs when a user can get into a subsection on a web page by us
 
 A common exception of this rule is when we show a modal dialog to the user, the dialog needs to trap keyboard focus until the user chooses to close the dialog. This is because the dialog introduces a new workflow to the user and needs the user's input to complete the new workflow.
 
-## 13. Color and color contrast
+## 14. Color and color contrast
 
 ### WCAG 1.4.1 Color only info
 
@@ -75,7 +75,7 @@ This guideline is not about removing color from our web pages or making web page
 
 All of us will benefit from a good contrast between text and its background color. For users with visual impairments, good contrast is essential.
 
-## 18. Text alternatives
+## 19. Text alternatives
 
 ### WCAG 1.1.1 Text alternatives
 
