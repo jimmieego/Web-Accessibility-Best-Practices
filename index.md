@@ -151,7 +151,7 @@ Web Content Accessibility Guidelines
 - Tab through page to verify all interactive elements have focus
 - Focus order matches intended reading order
 - Interact with all links and controls using only keyboard
-- No keyboard trap exist except for modals
+- No keyboard trap except for modals
 - Off-screen/invisible content does not receive focus
 
 
