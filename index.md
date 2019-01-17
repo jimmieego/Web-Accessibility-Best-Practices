@@ -14,12 +14,32 @@
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
-## What is accessibility?
+<h2 class="centertitle">What is accessibility?</h2>
 
-- Make content usable for everyone regardless of abilities
+Make content usable for everyone regardless of abilities
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+## Disability statistics
+
 - 15% of world population lives with some form of disability
 - In the US, 1 in 5 adults has a disability
-- Disabilities could be temporary or situational
+- 8% of male have some degree of color blindness
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h3 class="centertitle">Wide range of disabilities</h2>
+
+<p class="centerp">
+    <img id="msinclusive" src="images/MS_inclusive.jpg" alt="Infographic showing a wide range of disabilities">
+</p>
+<p id="mssource"><a href="https://www.microsoft.com/en-us/design/inclusive">Inclusive Design at Microsoft</a></p>
 
 
 

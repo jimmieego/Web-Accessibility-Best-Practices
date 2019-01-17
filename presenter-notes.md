@@ -1,6 +1,12 @@
 # Presenter notes
 
-## 2. Why is accessibility important?
+## 3. Wide range of disabilities
+
+There are many different types of disabilities affecting people's abilities to touch, see, hear, or speak.
+
+"Disabilities" could be permanent, temporary, or situational. For example, a parent may be holding a child while trying to use the phone; or a person may be in a noisy environment while trying to watch a video. People's normal abilities may be constrained by the situation, but they still need the same access to information.
+
+## 4. Why is accessibility important?
 
 In the US, the Department of Justice (DOJ) published the Americans with Disabilities Act (ADA) Standards for Accessible Design in September 2010. These standards state that all electronic and information technology must be accessible to people with disabilities.
 
@@ -8,21 +14,19 @@ Section 508 regulations are an amendment to the Rehabilitation Act of 1973 and a
 
 In addition to the law requirements, the web is originally designed for everyone. Everyone has abilities and limits to those abilities. Those limits should not be treated as obstacles to accessing the web.
 
-"Disabilities" could be temporary or situational. For example, a parent may be holding a child while trying to use the phone; or a person may be in a noisy environment while trying to watch a video. People's normal abilities may be constrained by the situation, but they still need the same access to information.
-
 Implementing accessibility can deepen our understanding of design. Considering things like tab order can take us beyond a vision of design as the look and feel and into the realm of user experience and usability. Accessibility is just another aspect of considering how to best build our sites to meet diverse human needs. The more we consider accessibility, the more profoundly we will understand user experience and anticipate user behavior—making us better designers.
 
-## 4. WCAG
+## 6. WCAG
 
 The Web Content Accessibility Guidelines (WCAG) is developed by the W3C. It is the international standard for making web content accessible. WCAG has been adopted by laws and standards in a lot of countries and regions. In the US, the Section 508 regulations incorporates WCAG 2.0.
 
-## 5. WCAG 2.0 and 2.1
+## 7. WCAG 2.0 and 2.1
 
 WCAG 2.0 was published in December 2008 and WCAG 2.1 was published in June 2018. WCAG 2.1 extends WCAG 2.0 by adding a number of new success criteria and guidelines.
 
 Because WCAG 2.1 is relatively new and we are still learning the new guidelines. This webinar is based on the success criteria of WCAG 2.0.
 
-## 6. Overview of WCAG 2.0
+## 8. Overview of WCAG 2.0
 
 WCAG are organized by four basic principles:
 
@@ -33,7 +37,7 @@ WCAG are organized by four basic principles:
 
 Each principle contains testable success criteria, which are set at three levels: A, AA, and AAA.
 
-## 9. Focus and tab order
+## 11. Focus and tab order
 
 ### WCAG 2.4.7 Clear focus
 
@@ -61,7 +65,7 @@ A keyboard trap occurs when a user can get into a subsection on a web page by us
 
 A common exception of this rule is when we show a modal dialog to the user, the dialog needs to trap keyboard focus until the user chooses to close the dialog. This is because the dialog introduces a new workflow to the user and needs the user's input to complete the new workflow.
 
-## 14. Color and color contrast
+## 16. Color and color contrast
 
 ### WCAG 1.4.1 Color only info
 
@@ -75,7 +79,7 @@ This guideline is not about removing color from our web pages or making web page
 
 All of us will benefit from a good contrast between text and its background color. For users with visual impairments, good contrast is essential.
 
-## 19. Text alternatives
+## 21. Text alternatives
 
 ### WCAG 1.1.1 Text alternatives
 
