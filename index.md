@@ -94,7 +94,7 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
-## Our focus
+## Our focus today
 
 - How to get started in accessibility
 - Simple and effective actions
