@@ -10,7 +10,7 @@ In addition to the law requirements, the web is originally designed for everyone
 
 "Disabilities" could be temporary or situational. For example, a parent may be holding a child while trying to use the phone; or a person may be in a noisy environment while trying to watch a video. People's normal abilities may be constrained by the situation, but they still need the same access to information.
 
-Implementing accessibility can deepen our understanding of design. Considering things like tab order can take us beyond a vision of design as the look and feel and into the realm of user experience and usability. Accessibility is just another aspect of considering how to best build our sites to meet diverse human needs. The move we consider accessibility, the more profoundly we will understand user experience and anticipate user behavior—making us better designers.
+Implementing accessibility can deepen our understanding of design. Considering things like tab order can take us beyond a vision of design as the look and feel and into the realm of user experience and usability. Accessibility is just another aspect of considering how to best build our sites to meet diverse human needs. The more we consider accessibility, the more profoundly we will understand user experience and anticipate user behavior—making us better designers.
 
 ## 4. WCAG
 
