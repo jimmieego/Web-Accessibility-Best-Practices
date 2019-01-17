@@ -43,7 +43,7 @@ So we have selected a few topics that are probably the basic accessibility requi
 
 One question we get a lot is how to make maps accessible, particularly for non-sighted users. In this webinar we will show our initial attempt at addressing this challenge. And we certainly welcome any input or feedback from you.
 
-Finally, we will talk about a do-it-yourself process for testing accessibility that we all can follow.
+Finally, we will talk about a do-it-yourself process for testing accessibility. Working to accommodate a diverse range of abilities means there are a correspondingly diverse range of issues to consider. We break down these issues into a logical, step by step process so that we all can follow.
 
 ## 10. Our focus today
 
