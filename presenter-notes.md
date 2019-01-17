@@ -37,6 +37,20 @@ WCAG are organized by four basic principles:
 
 Each principle contains testable success criteria, which are set at three levels: A, AA, and AAA.
 
+## 9. What we will cover today
+
+So we have selected a few topics that are probably the basic accessibility requirements for any web pages: keyboard focus, tab order, color and color contrast, and text alternatives. These are great foundations to start learning about accessibility. They are easy to relate to and test, and they benefit virtually all users.
+
+One question we get a lot is how to make maps accessible, particularly for non-sighted users. In this webinar we will show our initial attempt at addressing this challenge. And we certainly welcome any input or feedback from you.
+
+Finally, we will talk about a do-it-yourself process for testing accessibility that we all can follow.
+
+## 10. Our focus today
+
+We understand that accessibility can be a complex and difficult topic. So in this webinar, we will be focusing on the fundamental topics of accessibility, how to get started, and how we can take simple actions to identify accessibility issues. We will try not to dive deep into the code. But if you are a developer, we have two presentations about web accessibility at last year's Esri Developer Summit. We have posted links to the recordings in the Accessibility group on GeoNet.
+
+We will give two presentations on web accessibility at this year's Developer Summit as well. So check out the schedule if you are interested.
+
 ## 11. Focus and tab order
 
 ### WCAG 2.4.7 Clear focus
