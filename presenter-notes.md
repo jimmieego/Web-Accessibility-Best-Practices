@@ -89,6 +89,10 @@ As another example, when we use color only to show different datasets in a chart
 
 This guideline is not about removing color from our web pages or making web pages black and white, far from it. It just means that color should not be the only way of conveying information. Adding additional ways of conveying the same information in a lot of cases not only improves the accessibility, but also the overall user experience.
 
+## 18. White text on colored background
+
+When using white text on a colored background, it is sometimes hard to achieve a good contrast. You may be surprised how dark the color needs to be to meet the 4.5 contrast ratio. 
+
 ### WCAG 1.4.3 Contrast ratio
 
 All of us will benefit from a good contrast between text and its background color. For users with visual impairments, good contrast is essential.
