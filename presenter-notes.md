@@ -108,3 +108,9 @@ All of us will benefit from a good contrast between text and its background colo
 Alternative (or 'alt') text is a text replacement for non-text content like images. Non-sighted users rely on the alternative text to understand information in images. When they use screen reader and encounter an image, the screen reader will announce the alt text of the image. If the image does not have alt text, the screen reader will usually announce the file name of the image, which is not useful.
 
 A common exception for this guideline is that if an image is decorative and it does not convey meaning, we should set the alternative text to an empty string.
+
+## 26. DIY accessibility test
+
+So we recommend a four-step process to test accessibility of web applications. The four steps are automated test, keyboard test, screen reader test, and color test.
+
+This is also the process we follow at Esri. It breaks down the testing to a logic flow, and it minimizes the switching between different types of tests that we need to do.
