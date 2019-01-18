@@ -294,6 +294,35 @@ Web Content Accessibility Guidelines
 - No need to use the phrase "image of ..." to describe images
 
 
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h2 class="twocoltitle">Accessible maps</h2>
+
+<div class="twocol">
+    <ul class="leftcol">
+        <li>Display a text description of the map</li>
+        <li>Provide data in an alternate format</li>
+    </ul>
+    <div class="rightcol">
+      <img id="staticmap" src="images/static-map.png" alt="Map showing location of Esri Olympia">
+      <p class="source">
+        The Esri Olympia regional office is located at 111 Market St NE Suite 250 across the street from the Farmer's Market
+      </p>
+    </div>
+</div>
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+<h2 class="centertitle">Default map navigation</h2>
+
+<p class="centerp">
+    <img id="a11ymap" src="images/map-navigation.png" alt="Screenshot of the Map View navigation documentation">
+</p>
+
+<p class="source">Map View documentation: <a href="https://developers.arcgis.com/javascript/latest/api-reference/esri-views-MapView.html">https://developers.arcgis.com/javascript/latest/api-reference/esri-views-MapView.html</a></p>
+
 
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
@@ -306,9 +335,8 @@ Web Content Accessibility Guidelines
 
 <p class="source">GitHub repo: <a href="https://github.com/Esri/a11y-map">https://github.com/Esri/a11y-map</a></p>
 
-
-
 ---
+
 <!-- .slide: data-background="images/background/01.svg" -->
 
 <video controls>
@@ -316,8 +344,6 @@ Web Content Accessibility Guidelines
 </video>
 
 <p class="source"><a href="https://github.com/jimmieego/Web-Accessibility-Best-Practices/blob/masterimages/a11y-map-demo.mp4">Video link</a></p>
-
-
 
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
