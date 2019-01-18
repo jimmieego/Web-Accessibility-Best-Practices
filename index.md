@@ -20,6 +20,19 @@
 
 
 
+<!-- .slide: data-background="images/background/00.svg" -->
+
+# Web Accessibility Best Practices
+
+<p class="author">
+    Kelly Hutchins<br>
+    Tao Zhang
+</p>
+
+<p id="slidesInfo">Jan 23, 2019 · Esri GeoDev Webinar</p>
+
+
+
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
