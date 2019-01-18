@@ -101,7 +101,7 @@ You can solve the problem by flipping the contrast. Instead of using light text 
 
 All of us will benefit from a good contrast between text and its background color. For users with visual impairments, good contrast is essential.
 
-## 21. Text alternatives
+## 23. Text alternatives
 
 ### WCAG 1.1.1 Text alternatives
 
@@ -109,7 +109,18 @@ Alternative (or 'alt') text is a text replacement for non-text content like imag
 
 A common exception for this guideline is that if an image is decorative and it does not convey meaning, we should set the alternative text to an empty string.
 
-## 26. DIY accessibility test
+
+## 26. Accessible maps
+There are several options for making map content accessible. If the map is a simple map showing a location or providing directions you can provide a text description of the map. Here’s an example where the map image shows the location of the Esri Olympia regional office with a text description below the map.
+
+If the map is more complicated and shows several features you can provide the information in an alternate format such as a text list of locations or a table.
+
+
+## 27. Default map navigation
+
+The 2D Map View and 3D Scene View available in the Esri JavaScript api both provide out of the box support for navigating the map via the keyboard. Check out the documentation at <a href="https://developers.arcgis.com/javascript"/>https://developers.arcgis.com/javacript</a> for details.
+
+## 30. DIY accessibility test
 
 So we recommend a four-step process to test accessibility of web applications. The four steps are automated test, keyboard test, screen reader test, and color test.
 
