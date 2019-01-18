@@ -14,6 +14,15 @@
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
+<p class="centerp">
+    <img id="gotowebinar" src="images/gotowebinar.png" alt="Screenshots of Gotowebinar panel">
+</p>
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
 <h2 class="centertitle">What is accessibility?</h2>
 
 Make content usable for everyone regardless of abilities

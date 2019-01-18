@@ -39,7 +39,7 @@ Each principle contains testable success criteria, which are set at three levels
 
 ## 9. What we will cover today
 
-So we have selected a few topics that are probably the basic accessibility requirements for any web pages: keyboard focus, tab order, color and color contrast, and text alternatives. These are great foundations to start learning about accessibility. They are easy to relate to and test, and they benefit virtually all users.
+So we have selected a few topics that are probably the most fundamental accessibility requirements for any web pages: keyboard focus, tab order, color and color contrast, and text alternatives. These are great foundations to start learning about accessibility. They are easy to relate to and test, and they benefit virtually all users.
 
 One question we get a lot is how to make maps accessible, particularly for non-sighted users. In this webinar we will show our initial attempt at addressing this challenge. And we certainly welcome any input or feedback from you.
 
