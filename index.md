@@ -388,6 +388,7 @@ Web Content Accessibility Guidelines
 - [MDN: Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - [Google Developers Web Fundamentals: Accessibility](https://developers.google.com/web/fundamentals/accessibility/)
 - [The A11Y Project](https://a11yproject.com/)
+- [GeoNet: Accessibility](https://community.esri.com/groups/accessibility)
 
 
 

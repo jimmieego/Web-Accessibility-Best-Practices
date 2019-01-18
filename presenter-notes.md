@@ -91,7 +91,11 @@ This guideline is not about removing color from our web pages or making web page
 
 ## 18. White text on colored background
 
-When using white text on a colored background, it is sometimes hard to achieve a good contrast. You may be surprised how dark the color needs to be to meet the 4.5 contrast ratio. 
+When using white text on a colored background, it is sometimes hard to achieve a good contrast. You may be surprised how dark the color needs to be to meet the 4.5 contrast ratio. This can create hierarchy issues when those elements are not supposed to be the focus of the page - dark colored backgrounds will really grab the user's attention.
+
+## 19. Flipping the contrast
+
+You can solve the problem by flipping the contrast. Instead of using light text on a dark colored background, use dark colored text on a light colored background. The color is still there to help support the text, but it's way less prominent and does not interfere as much with other parts of the page.
 
 ### WCAG 1.4.3 Contrast ratio
 
