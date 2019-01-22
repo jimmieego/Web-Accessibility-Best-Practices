@@ -75,7 +75,7 @@ Tab order is the order in which focus proceeds forward and backward through inte
 
 The default keyboard navigation order must be logical and intuitive. For example, in English we read from left to right and from top to bottom. So the tab order should follow the visual flow of the page: left to right and top to bottom. And we should let the web page's source code determine the tab order.
 
-I should point out that letting the keyboard focus jumping around on the page is not only an accessibility issue, but also a usability issue.
+I should point out that letting the keyboard focus jumping around on the page is not only an accessibility issue, but also a usability issue. It just makes using the keyboard to work with the page a lot harder than necessary.
 
 ### WCAG 2.1.1 Keyboard access
 
@@ -135,6 +135,8 @@ This is also the process we follow at Esri. It breaks down the testing to a logi
 ## 33. Automated test with aXe
 
 aXe is an extension that you can install in Chrome and Firefox. It tests the rendered page in Chrome and Firefox. It reports any violations against a set of accessibility rules and best practices. A big advantage of aXe, compared to other automated testing tools, is that it is relatively conservative, meaning it tends to report less false positives. And aXe itself is accessible. Keyboard users and non-sighted users should be able to use aXe for automated tests.
+
+(After demo:) I should point out that automated tests cannot replace manual tests using keyboard and screen reader. Automated test tools like aXe can help us quickly find certain types of issues, but not all. For example, an automated test tool can tell us an image is missing alt text, but it cannot judge whether an alt text is meaningful for the image.
 
 ## 35. Keyboard test
 
