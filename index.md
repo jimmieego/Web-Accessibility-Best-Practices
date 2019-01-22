@@ -148,6 +148,27 @@ Web Content Accessibility Guidelines
 ---
 <!-- .slide: data-background="images/background/01.svg" -->
 
+## Past presentations
+
+- [DIY Accessibility](https://youtu.be/VNL4DHSS6RE)
+- [Accessible Web Mapping Apps](https://youtu.be/mDb2goQ0mDM)
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
+## Presentations at DevSummit 2019
+
+- [DIY Accessibility](https://devsummit2019.schedule.esri.com/schedule/50197386), March 6, 5:30-6:30pm
+- [Accessible Web Mapping Apps](https://devsummit2019.schedule.esri.com/schedule/672667633), March 7, 9:00-10:00am
+- [Improving Accessibility with ArcGIS Online Web Apps](https://devsummit2019.schedule.esri.com/schedule/517986417), March 7, 2:30-3:00pm
+
+
+
+---
+<!-- .slide: data-background="images/background/01.svg" -->
+
 ## Focus and tab order
 
 <ul>
@@ -446,4 +467,7 @@ Web Content Accessibility Guidelines
 
 ### Questions?
 
-<p class="centerp source">Slides: https://arcg.is/1a910T</p>
+<ul class="source">
+    <li>Slides: https://arcg.is/1a910T</li>
+    <li>ArcGIS Online Accessibility Survey: https://arcg.is/8m9am</li>
+</ul>
