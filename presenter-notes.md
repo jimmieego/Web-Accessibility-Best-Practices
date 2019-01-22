@@ -41,6 +41,8 @@ Each principle contains testable success criteria, which are set at three levels
 
 So we have selected a few topics that are probably the most fundamental accessibility requirements for any web pages: keyboard focus, tab order, color and color contrast, and text alternatives. These are great foundations to start learning about accessibility. They are easy to relate to and test, and they benefit virtually all users.
 
+For each topic, we will discuss relevant WCAG success criteria and then we will show you a few examples of how to meet those success criteria.
+
 One question we get a lot is how to make maps accessible, particularly for non-sighted users. In this webinar we will show our initial attempt at addressing this challenge. And we certainly welcome any input or feedback from you.
 
 Finally, we will talk about a do-it-yourself process for testing accessibility. Working to accommodate a diverse range of abilities means there are a correspondingly diverse range of issues to consider. We break down these issues into a logical, step by step process so that we all can follow.
@@ -115,7 +117,6 @@ There are several options for making map content accessible. If the map is a sim
 
 If the map is more complicated and shows several features you can provide the information in an alternate format such as a text list of locations or a table.
 
-
 ## 27. Default map navigation
 
 The 2D Map View and 3D Scene View available in the Esri JavaScript api both provide out of the box support for navigating the map via the keyboard. Check out the documentation at <a href="https://developers.arcgis.com/javascript"/>https://developers.arcgis.com/javacript</a> for details.
@@ -153,3 +154,7 @@ We recommend these two video tutorials for VoiceOver and NVDA. They cover the ba
 ## 36. Color test
 
 The last step is manual color test. This step is necessary because automated test tools cannot cover all color issues. For example, a background may use color gradient, not a single color. And for information like error messages, we have to manually look at it to see if they use color only to communicate the meaning.
+
+## Last
+
+That concludes our presentation. We will now move over to Amy for questions.
