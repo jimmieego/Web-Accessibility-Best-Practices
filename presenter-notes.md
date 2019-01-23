@@ -53,7 +53,7 @@ We understand that accessibility can be a complex and difficult topic. So in thi
 
 ## 13. Past presentations
 
-We will not to dive deep into the code for this webinar. If you are a developer who is interested in more technical discussions, we gave two presentations about web accessibility at last year's Esri Developer Summit. We have included links to the recordings on this slide.
+We will try not to dive deep into the code for this webinar. If you are a developer who is interested in more technical discussions, we gave two presentations about web accessibility at last year's Esri Developer Summit. We have included links to the recordings on this slide.
 
 ## 14. Presentations at DevSummit 2019
 
