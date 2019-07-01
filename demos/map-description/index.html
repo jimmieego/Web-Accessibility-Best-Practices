@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-  <title>Esri Olympia</title>
+  <title>Map Description Demo</title>
 
   <style>
     html,
@@ -18,9 +18,9 @@
 
   </style>
 
-  <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/css/main.css">
 
-  <script src="https://js.arcgis.com/4.10/"></script>
+  <script src="https://js.arcgis.com/4.12/"></script>
 
   <script>
     require([
@@ -29,14 +29,14 @@
     ], function (
       MapView, WebMap
     ) {
-      var webmap = new WebMap({
+      const map = new WebMap({
         portalItem: {
           id: "f0b968863ef745378c763c4ba6ecf8f4"
         }
       });
 
-      var view = new MapView({
-        map: webmap,
+      const view = new MapView({
+        map,
         container: "viewDiv"
       });
       view.container.setAttribute("aria-label",

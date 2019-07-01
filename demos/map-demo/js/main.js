@@ -8,18 +8,19 @@ require([
   "dojo/on",
   "dojo/query",
   "dojo/dom-class",
-  "dojo/_base/lang",
   "dojo/domReady!"
 ], function (
-  MapView, WebMap, Search, Home, BasemapToggle, Feature, on, query, domClass, lang
+  MapView, WebMap, Search, Home, BasemapToggle, Feature, on, query, domClass
 ) {
-  var webmap = new WebMap({
-    portalItem: { // autocasts as new PortalItem()
+  window.calcite.modal();
+
+  const map = new WebMap({
+    portalItem: {
       id: "7eca81856e22478da183da6a33c24dfe"
     }
   });
-  var view = new MapView({
-    map: webmap,
+  const view = new MapView({
+    map,
     container: "viewDiv",
     popup: null,
     padding: {
@@ -27,16 +28,28 @@ require([
     }
   });
   // Add the home widget to the View UI
-  var home = new Home({
-    view: view
+  const home = new Home({
+    view
   });
-  var basemapToggle = new BasemapToggle({
-    view: view,
+  const basemapToggle = new BasemapToggle({
+    view,
     nextBasemap: "hybrid"
   });
   view.ui.add(home, "top-left");
   view.ui.add(basemapToggle, "top-right");
 
+  const splashButton = document.createElement("button");
+  splashButton.setAttribute("data-modal", "splash");
+  splashButton.classList.add("js-modal-toggle", "esri-component", "esri-widget", "esri-widget--button", "esri-icon-description");
+  view.ui.add(splashButton, "top-left");
+
+  splashButton.addEventListener("click", function () {
+    window.calcite.bus.emit("modal:open", {
+      id: "splash"
+    });
+  });
+
+  // View is ready
   view.when(function () {
     updateUI(view);
     view.watch("widthBreakpoint", function () {
@@ -46,9 +59,9 @@ require([
     view.whenLayerView(webmap.layers.getItemAt(0)).then(function (layerView) {
       // data is loaded enable the buttons
       query(".btn-disabled").removeClass("btn-disabled");
-      var parks = layerView;
-      var search = new Search({
-        view: view,
+      const parks = layerView;
+      const search = new Search({
+        view,
         container: "searchContainer",
         includeDefaultSources: false,
         sources: [{
@@ -59,20 +72,20 @@ require([
           suggestionsEnabled: true
         }]
       });
-      var detailContainer = document.getElementById("detailsContainer");
+      const detailContainer = document.getElementById("detailsContainer");
       search.on("search-clear", function () {
         detailContainer.innerHTML = null;
       });
       search.on("search-complete", function (results) {
         detailContainer.innerHTML = null;
-        var searchResults = results.results;
+        const searchResults = results.results;
 
         searchResults.forEach(function (r) {
           if (r.results) {
             r.results.forEach(function (result) {
-              var f = new Feature({
+              const f = new Feature({
                 graphic: result.feature,
-                view: view,
+                view,
                 container: document.createElement("div")
               });
               detailContainer.appendChild(f.container);
@@ -83,16 +96,16 @@ require([
       });
       on(query(".btn-white"), "click", function () {
         // handle button press
-        var pressed = (this.getAttribute("aria-pressed") === "true");
+        const pressed = (this.getAttribute("aria-pressed") === "true");
         this.setAttribute("aria-pressed", !pressed);
-        var type = this.dataset.feature;
+        const type = this.dataset.feature;
         filterTrailheadTypes(type, parks, !pressed);
       });
     });
   });
 
   function updateUI(view) {
-    var breakpoint = view.widthBreakpoint;
+    const breakpoint = view.widthBreakpoint;
     if (breakpoint === "xsmall" || breakpoint === "small") {
       domClass.add("sidebar", "bottom-panel");
       view.padding = {
@@ -109,7 +122,7 @@ require([
   }
 
   function filterTrailheadTypes(type, layerView, enabled) {
-    var types = {
+    const types = {
       "ada": "ADATrail != 'Not Recommended'",
       "horse": "HorseTrail != 'Not Recommended'",
       "bikes": "BikeTrail = 'Yes'",
@@ -133,19 +146,19 @@ require([
 
     layerView.queryFeatures(q).then(function (queryResults) {
 
-      var results = queryResults.features;
-      var count = results.length;
-      var selected = [];
+      const results = queryResults.features;
+      const count = results.length;
+      const selected = [];
       query("[aria-pressed=true]").forEach(function (node) {
         selected.push(node.title);
       });
       document.getElementById("results").innerHTML = selected.length === 0 ? "" : count + " parks have the selected facilities " + selected.join(",");
       detailContainer.innerHTML = null;
-      var ul = document.createElement("ul");
+      const ul = document.createElement("ul");
       detailContainer.appendChild(ul);
-      var highlightHandler = null;
+      const highlightHandler = null;
       results.forEach(function (f) {
-        var li = document.createElement("li");
+        const li = document.createElement("li");
         ul.appendChild(li);
         li.addEventListener("click", function () {
           if (highlightHandler) {
@@ -154,8 +167,8 @@ require([
           view.goTo(f);
           highlightHandler = layerView.highlight(f);
         });
-        var feature = new Feature({
-          view: view,
+        const feature = new Feature({
+          view,
           graphic: f,
           container: document.createElement("div")
         });
